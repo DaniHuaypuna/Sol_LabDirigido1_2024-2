@@ -21,7 +21,7 @@ int main()
     show_decoded_word(n, coded_word_numbers, coded_word); // igualmente, n solo será leido
 }
 
-void read_data(int *ptr_n, int coded_word_numbers[], char coded_word[]) {
+void read_data(int *ptr_n, int coded_word_numbers[], char coded_word[]) { // lectura de datos
     cout << "Ingrese la cantidad de numeros de Fibonacci a leer: ";
     cin >> *ptr_n;
     for (int i = 0; i < *ptr_n; i++) {
